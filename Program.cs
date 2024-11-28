@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient("OpenAI", client =>
 {
     client.BaseAddress = new Uri("https://api.openai.com/v1/");
-    client.DefaultRequestHeaders.Add("Authorization", "Bearer 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");
+    client.DefaultRequestHeaders.Add("Authorization", "Bearer xxxx");
 });
 builder.Services.AddCors(options =>
 {
